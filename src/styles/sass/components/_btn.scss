@@ -1,0 +1,27 @@
+.btn {
+    color: var(--seashell-peach);
+    text-decoration: none;
+
+    &--primary {
+        padding: .8rem 2.8rem;
+
+        background: var(--black);
+
+        font-size: var(--fs-sm);
+        font-weight: 700;
+        line-height: var(--lh-xl);
+
+        cursor: pointer;
+        border-radius: 2.8rem;
+        transition: background-color 250ms;
+
+        &:hover {
+            background: var(--medium-purple);
+        }
+
+        @include mq(medium) {
+            padding: 1.4rem 4.5rem;
+            font-size: var(--fs-base);
+        }
+    }
+}
