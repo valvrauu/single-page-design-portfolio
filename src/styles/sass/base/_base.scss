@@ -9,7 +9,9 @@ body {
     padding: 1.6rem 1.6rem 3.2rem;
 
     background: var(--seashell-peach);
-    
+
+    font-family: var(--fm-primary);
+
     @include mq(medium) {
         padding: 3.4rem 3.9rem 5.6rem;
     }
