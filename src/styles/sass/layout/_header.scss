@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    @include mq(small) {
+        & {
+            justify-content: space-between;
+        }
+    }
+}
