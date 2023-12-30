@@ -4,3 +4,13 @@ body {
     font-size: var(--fs-base);
     line-height: var(--lh-base);   
 }
+
+.primary-title {
+    color: var(--black);
+
+    font-size: var(--fs-4xl);
+    font-weight: 700;
+
+    @include mq(medium) { font-size: var(--fs-6xl); }
+    @include mq(largest) { font-size: var(--fs-7xl); }
+}
