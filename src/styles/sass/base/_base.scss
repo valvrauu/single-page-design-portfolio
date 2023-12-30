@@ -6,6 +6,15 @@ html {
 body {
     min-height: 100vh;
     min-height: 100dvh;
+    padding: 1.6rem 1.6rem 3.2rem;
 
     background: var(--seashell-peach);
+    
+    @include mq(medium) {
+        padding: 3.4rem 3.9rem 5.6rem;
+    }
+
+    @include mq(largest) {
+        padding: 3.4rem 16.5rem 6.4rem;
+    }
 }
