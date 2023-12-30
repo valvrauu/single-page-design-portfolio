@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <!-- [github.com/valvrauu]() -->
-- Live Site URL: <!-- [valvrauu.github.io]() -->
+- Solution URL: [github.com/valvrauu](https://github.com/valvrauu/single-page-design-portfolio)
+- Live Site URL: [valvrauu.github.io](https://valvrauu.github.io/single-page-design-portfolio/)
 
 ### Built with
 
