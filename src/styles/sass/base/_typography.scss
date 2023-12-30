@@ -14,3 +14,16 @@ body {
     @include mq(medium) { font-size: var(--fs-6xl); }
     @include mq(largest) { font-size: var(--fs-7xl); }
 }
+
+.paragraph {
+    color: var(--tapa);
+
+    font-size: var(--fs-base);
+    font-weight: 500;
+    line-height: var(--lh-lg);
+
+    @include mq(medium) {
+        font-size: var(--fs-lg);
+        line-height: var(--lh-xl);
+    }
+}
