@@ -1,0 +1,62 @@
+.block-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    margin-top: 10rem;
+
+    @include mq(medium) {
+        flex-direction: row;
+        gap: 6.9rem;
+
+        position: relative;
+        left: -10vw;
+
+        margin-top: 12rem;
+        width: 100vw;
+    }
+
+    @include mq(large) {
+        gap: 12.5rem;
+
+        position: static;
+
+        margin-top: 13.6rem;
+        width: auto;
+    }
+
+    &__box-img {
+        max-width: 30rem;
+        width: 100%;
+
+        @include mq(medium) {
+            max-width: 36.4rem;
+            flex-shrink: 0;
+        }
+
+        @include mq(large) { max-width: 44.5rem; }
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+    }
+
+    &__infos {
+        display: grid;
+        gap: 2.4rem;
+
+        text-align: center;
+
+        @include mq(medium) { text-align: start; }
+        @include mq(large) { gap: 3.2rem; }
+    }
+
+    &__btn {
+        text-wrap: nowrap;
+        justify-self: center;
+
+        @include mq(medium) { justify-self: flex-start; }
+    }
+}
