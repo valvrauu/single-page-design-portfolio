@@ -19,6 +19,14 @@
             background: var(--medium-purple);
         }
 
+        &--second-theme {
+            background: var(--burnt-sienna);
+
+            &:hover {
+                background: var(--sandy-brown);
+            }
+        }
+
         @include mq(medium) {
             padding: 1.4rem 4.5rem;
             font-size: var(--fs-base);
