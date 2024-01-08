@@ -1,0 +1,16 @@
+.carousel {
+    display: flex;
+    gap: 1.5rem;
+
+    overflow: auto;
+    transition: all 500ms;
+
+    @include mq(medium) { gap: 3rem; }
+
+    &__img {
+        width: 27rem;
+        border-radius: 1rem;
+
+        @include mq(medium) { width: 54rem; }
+    }
+}
