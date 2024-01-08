@@ -25,6 +25,15 @@ body {
     @include mq(largest) { font-size: var(--fs-5xl); }
 }
 
+.tertiary-title {
+    color: var(--black);
+
+    font-size: var(--fs-xl);
+    font-weight: 700;
+
+    @include mq(medium) { font-size: var(--fs-3xl); }
+}
+
 .paragraph {
     color: var(--tapa);
 
