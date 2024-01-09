@@ -1,0 +1,46 @@
+.block-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+
+    margin-top: 10rem;
+    padding: 4.8rem 2.4rem;
+
+    background: var(--black);
+
+    border-radius: 1rem;
+
+    @include mq(medium) {
+        gap: 2.6rem;
+
+        margin-top: 12rem;
+        padding: 5.6rem 7.5rem 6.4rem;
+    }
+
+    @include mq(largest) {
+        justify-content: space-between;
+
+        margin-top: 8.8rem;
+        padding: 8rem 9.5rem 8rem 6.5rem;
+    }
+
+    &__content {
+        display: contents;
+        flex: 0 1 54rem;
+
+        @include mq(largest) {
+            display: grid;
+            gap: 2.5rem;
+        }
+    }
+
+    &__secondary-title,
+    &__paragraph {
+        color: var(--seashell-peach);
+        text-align: center;
+
+        @include mq(largest) { text-align: start; }
+    }
+}
