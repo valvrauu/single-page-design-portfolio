@@ -12,6 +12,8 @@ body {
 
     font-family: var(--fm-primary);
 
+    overflow-x: hidden;
+
     @include mq(medium) {
         padding: 3.4rem 3.9rem 5.6rem;
     }
