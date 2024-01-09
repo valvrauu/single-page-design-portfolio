@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-top: 4rem;
+
+    @include mq(small) {
+        justify-content: space-between;
+    }
+
+    @include mq(medium) {
+        margin-top: 5.6rem;
+    }
+}
