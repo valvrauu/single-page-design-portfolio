@@ -7,17 +7,21 @@
     left: -1.6rem;
 
     margin-top: 10rem;
-    width: 100vw;
+    width: calc(100% + 3.2rem);
 
     overflow: hidden;
 
     @include mq(medium) {
         gap: 5.6rem;
+        width: calc(100% + 7.8rem);
+
         left: -3.9rem;
         margin-top: 12rem;
     }
 
     @include mq(largest) {
+        width: calc(100% + 33rem);
+
         left: -16.5rem;
         margin-top: 8.8rem;
     }
