@@ -1,9 +1,14 @@
 html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     min-height: 100vh;
     min-height: 100dvh;
 }
 
 body {
+    max-width: 144rem;
     min-height: 100vh;
     min-height: 100dvh;
     padding: 1.6rem 1.6rem 3.2rem;
